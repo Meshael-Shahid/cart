@@ -67,6 +67,10 @@ const App = () => {
     })
   }
 
+  const update = () => {
+
+  }
+  
   const handleDecrementFromCart = (id: number) => {
     setCartItems( prevItems => 
       prevItems.reduce((ack, item) => {
